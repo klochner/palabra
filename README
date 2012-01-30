@@ -25,7 +25,8 @@ How to install/run
 - In the directory of Palabra, run the following command:
 
   python setup.py build
-  
+  mac:  env ARCHFLAGS="-arch i386" python setup.py build
+
 - You can now install Palabra using:
 
   python setup.py install
