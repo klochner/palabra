@@ -1,0 +1,106 @@
+
+Palabra
+=======
+
+Palabra is a crossword editor with a focus on professional crossword
+development. Palabra is written in Python and C. It is
+free software and it is licensed under the GNU General Public
+License, version 3 or any later version.
+
+Requirements
+============
+
+- Python 2.6
+- PyGTK 2.14
+- lxml package, also known as python-lxml in repositories.
+  It can also be found here: http://pypi.python.org/pypi/lxml.
+- python-dev from the repositories.
+
+Palabra should work with the above versions of the software packages but they
+may need to be refined further (please contact me).
+
+How to install/run
+==================
+
+- In the directory of Palabra, run the following command:
+
+  python setup.py build
+  
+- You can now install Palabra using:
+
+  python setup.py install
+  
+- After that, you can run palabra using:
+
+  palabra
+  
+If you have trouble installing and you get errors about missing distribution
+options, try upgrading the setup script with:
+
+  sudo python ez_setup.py -U setuptools
+  
+For the latest installation instructions, visit:
+
+  https://bitbucket.org/svisser/palabra/wiki/Home
+
+
+Getting started
+===============
+
+Placing a block:
+    - Left-click on a cell and press '.', or
+    - Hold SHIFT and left-click on a cell
+
+Removing a block:
+    - Hold SHIFT and right-click on a cell
+
+Change typing direction:
+    - Press TAB.
+
+Entering a character in a cell:
+    - Left-click on the cell and type the character.
+
+Move the selection to a nearby cell:
+    - Use the ARROW KEYS for left, right, up, and down.
+
+Deleting a character:
+    - Left-click on a cell and press BACKSPACE or DELETE.
+    - You can also press BACKSPACE repeatedly to remove the whole slot.
+
+Jump to the first cell of a slot:
+    - Press HOME.
+    
+Jump to the last cell of a slot:
+    - Press END.
+
+File formats
+============
+
+Palabra supports the file formats XPF and ipuz (experimental).
+
+- XFP (http://xwordinfo.com/xpf)
+- ipuz (http://www.ipuz.org/)
+
+ipuz is a trademark of Puzzazz, Inc., used with permission.
+
+Note: All information can currently be saved with XPF while
+not all information (such as explanations for clues) can currently
+be saved with ipuz.
+
+Contact
+=======
+
+E-mail: simeonvisser@gmail.com
+
+For bugs/comments, see Development below.
+
+Development
+============
+
+Development takes place at:
+
+  http://bitbucket.org/svisser/palabra/
+
+For reporting issues and requesting features:
+  
+  http://bitbucket.org/svisser/palabra/issues/

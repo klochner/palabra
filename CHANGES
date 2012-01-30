@@ -1,0 +1,81 @@
+
+This is a list of changes since the initial release of Palabra.
+
+0.1.7 (June 3, 2011)
+* Added button in new puzzle window for finding grids with specified words.
+* Added dialog for viewing similar words.
+* Added dialog for managing word lists.
+* Added dialog for configuring word list usage.
+* Added dialog for editing page headers.
+* Added more options for PDF export.
+* Added ability to lookup clues in clue tab.
+* Added dialog for managing clue databases.
+* Added ability to sort words in main word control by alphabet and score.
+* Added next / previous buttons for editing clues.
+
+0.1.6 (May 17, 2011)
+* Added ability to store an explanation for a clue (XPF).
+* Added basic support for ipuz file format.
+* Added dialog to modify the appearance of the puzzle.
+* Added popup menu for individual cells.
+* Added properties dialog for modifying individual cells.
+* Added ability to show words of selected length in properties window.
+* Added various options for export to PDF.
+* Added dialog for finding words using basic regex.
+* Added dialog for viewing accidental words in the grid.
+
+0.1.5 (April 19, 2011)
+* XPF 1.0 is supported (except right-to-left editing)
+* Disabled a variety of features for this release.
+* Added export to PDF and PNG.
+* Speed improvements to XML parser.
+* Speed improvements to displaying list of words.
+* Various other speed improvements
+
+0.1.4 (June 13, 2010)
+* Disabled various features for future release.
+* Speed optimizations and refactoring.
+
+0.1.3 (May 24, 2010)
+* Added ability to select words by length in properties window.
+* Added Scrabble score to properties window.
+* Added partial support to read/write XPF 0.9.
+* Replaced XML Schema by strict parser.
+* Undo/redo rewritten to use states instead of functions.
+* Fixed bug in search when an intersecting word is filled in.
+* Added ability to show only unused words.
+* Improved readability of properties window.
+* Added ability to highlight characters in the grid in properties window.
+* Added ability to store arbitrary text with a puzzle.
+* Fixed bug with rendering of lines near border.
+* Added 90 degree rotational symmetry and symmetry along diagonals.
+* Added partial support for overriding cell styles.
+* Added partial support for circles.
+* Improved speed of new puzzle window.
+* Improved speed of rendering a grid.
+* Added popup menu for words in the word list.
+* Added open cell count to properties window.
+* Added connectedness to properties window.
+* Added editor to Metadata tab in properties window.
+* Added popup menu for cells in the grid.
+* Added properties dialog for cells.
+* Integrated pattern editor into new puzzle window.
+* Pattern editor can also fill a grid with a certain cell type.
+
+0.1.2 (April 2, 2010)
+* Partial support for voids.
+* Patterns can be selected for new puzzles.
+* Added option to create a backup file before saving.
+* Simple Dublin Core standard is used for metadata.
+* Speed improvements for word lists (rewritten in C).
+* Speed improvements for rendering the editor.
+
+0.1.1 (September 15, 2009)
+* XML files are validated against XML Schema.
+* Word lists can be used to populate the grid.
+* Speed improvements in rendering code.
+* Partial support for bars.
+* Clue editor is integrated in main window.
+
+0.1 (August 14, 2009)
+* Initial release.
