@@ -71,7 +71,7 @@ typedef struct Slot {
 
 // for commonly used wordlists and one special wordlist for search on the fly
 // initialized in cPalabra_preprocess_all
-Tptr trees[MAX_WORD_LISTS + 1][MAX_WORD_LENGTH];
+extern Tptr trees[MAX_WORD_LISTS + 1][MAX_WORD_LENGTH];
 
 extern void update_score(Tptr p, char *s, int score);
 extern PyObject *find_matches_i(int index, char *s);

@@ -2,6 +2,8 @@
 #include <Python.h>
 #include "cpalabra.h"
 
+Tptr trees[MAX_WORD_LISTS + 1][MAX_WORD_LENGTH];
+
 // TODO return C object
 PyObject* find_matches(PyObject *list, Tptr p, char *s)
 {
